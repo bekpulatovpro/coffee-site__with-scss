@@ -1,0 +1,25 @@
+.commitment .second-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.commitment_info {
+  margin-left: 125px;
+}
+.commitment__img{
+    width: 485px;
+}
+.commitment__title {
+  margin-bottom: 32px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+.commitment__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  opacity: 0.8;
+}

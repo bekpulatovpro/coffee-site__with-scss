@@ -1,0 +1,27 @@
+.hero__about .container {
+  background-image: url("../../img/about\ back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin-bottom: 168px;
+}
+.hero__about-title {
+  padding-top: 137px;
+  margin-top: 0;
+  margin-bottom:32px ;
+  width: 190px;
+  font-family: 'Fraunces' ;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.hero__about-text{
+    padding-bottom: 137px;
+    width: 445px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}

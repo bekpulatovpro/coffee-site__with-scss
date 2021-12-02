@@ -1,0 +1,43 @@
+.types {
+  position: relative;
+  padding-top: 150px;
+  height: 702px;
+  .second-container {
+    margin-bottom: 180px;
+  }
+}
+.types__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+}
+.types__item{
+    width: 255px;
+}
+.types-heading {
+  margin-top: 72px;
+  margin-bottom: 24px;
+  font-family: " Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+.types_text {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+.types__img{
+  position: absolute;
+  top: 13px;
+  z-index: -1;
+}

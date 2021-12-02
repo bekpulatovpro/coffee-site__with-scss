@@ -1,0 +1,38 @@
+.quality .container {
+  margin-top: 260px;
+  position: relative;
+  background: #2c343e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quality .container .second-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quality__title {
+  padding-top: 100px;
+  margin-bottom: 32px;
+  width: 517px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+}
+.quality__text {
+  margin-bottom: 100px;
+  width: 517px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+.quality__img{
+  margin-top: 52px;
+  position: absolute;
+  bottom: 40px;
+  right: 85px;
+}

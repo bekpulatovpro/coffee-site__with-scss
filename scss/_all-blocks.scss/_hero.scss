@@ -1,0 +1,35 @@
+.hero {
+  .container {
+    background-image: url(".././img/great.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1280px;
+    height: 600px;
+    padding: 0 116px;
+    border-radius: 10px;
+    margin-bottom: 130px;
+    padding-top: 120px;
+  }
+}
+.hero-title {
+  margin-bottom: 32px;
+  width: 495px;
+  font-family: "Fraunces ";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: white;
+}
+.hero-text {
+    margin-bottom: 56px;
+  width: 495px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+
