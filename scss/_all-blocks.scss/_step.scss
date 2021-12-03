@@ -10,12 +10,13 @@
 }
 .step::before {
   position: absolute;
+  top: 0;
   content: "";
   width: 763px;
   height: 1px;
   display: block;
   background-color: #fdd6ba;
-  transform: translateX(-111.5px);
+  transform: translateX(13.5px);
 }
 .step {
   position: relative;
