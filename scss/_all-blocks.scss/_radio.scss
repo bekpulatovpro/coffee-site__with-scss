@@ -1,6 +1,5 @@
 .radio {
   margin-top: 200px;
-  
 }
 .radio__text {
   margin-left: 30px;
@@ -13,20 +12,19 @@
   color: #83888f;
 }
 .left__radio {
- list-style-type: none;
- 
+  list-style-type: none;
 }
-.left__radio__link{
+.left__radio__link {
   text-decoration: none;
   transition: color 0.2s ease;
 }
 .left__radio__link:hover > span {
-  color: #333D4B;
+  color: #333d4b;
 }
 .radio__number {
   width: 30px;
   height: 32px;
-  font-family: 'Fraunces';
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -42,8 +40,8 @@
   height: 1px;
   margin-bottom: 10px;
 }
-.input:checked .radio_labels{
-  background-color: #0e8784 ;
+.input:checked .radio_labels {
+  background-color: #0e8784;
 }
 // Radio right
 .radio .second-container {
@@ -53,6 +51,9 @@
   margin-left: 120px;
 }
 .radio__right__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 600;
@@ -60,17 +61,14 @@
   line-height: 48px;
   color: #83888f;
 }
-.radio__right__title::after{
-  margin-left:50px;
-  margin-top: 20px;
-  margin-right: 20px;
+.radio__right__title::after {
   display: inline-block;
   width: 18px;
-  height: 11px;
-  content: '';
+  height: 12px;
+  background-image: url("../../img/icon\ in\ top.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../../img/icon\ in\ top.svg');
+  content: "";
 }
 .second__title {
   margin-top: 88px;
@@ -87,10 +85,10 @@
   border-radius: 8px;
 }
 
-.active h4{
-    color: #fff;
+.active h4 {
+  color: #fff;
 }
-.active{
+.active {
   background: #0e8784;
   color: #fff;
 }
@@ -103,15 +101,19 @@
   color: #fff;
 }
 
-.radio_labels:active.active{
-    background: #f4f1eb;
+.radio_labels:active.active {
+  background: #f4f1eb;
 }
 
-.radio_labels:active h4{
-    color: #fff;
+.radio_labels:active h4 {
+  color: #fff;
 }
 .radio_labels + .radio_labels {
   margin-left: 23px;
+}
+.capsule-item:checked {
+  background-color: #0e8784;
+  color: #fefcf7;
 }
 .capsule__item__title {
   margin-left: 28px;

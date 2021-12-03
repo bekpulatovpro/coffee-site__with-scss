@@ -2,6 +2,7 @@
   margin-top: 178px;
 }
 .card__title {
+  font-family: 'Fraunces';
   margin-bottom: 72px;
   font-weight: 900;
   font-size: 24px;
@@ -10,16 +11,24 @@
 }
 
 .card__list {
+  
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .card__img {
   margin-bottom: 50px;
 }
+.card__item{
+  width: 285px;
+}
+.card__item + .card__item{
+  margin-left: 95px;
+}
 .card-inside__heading {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
   font-weight: 900;
   font-size: 32px;
   line-height: 36px;

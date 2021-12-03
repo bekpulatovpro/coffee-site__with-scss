@@ -13,6 +13,7 @@
   justify-content: space-between;
 }
 .quality__title {
+  font-family: 'Fraunces';
   padding-top: 100px;
   margin-bottom: 32px;
   width: 517px;
@@ -22,6 +23,7 @@
   color: #fefcf7;
 }
 .quality__text {
+  font-family: 'Barlow';
   margin-bottom: 100px;
   width: 517px;
   font-weight: normal;
@@ -32,7 +34,8 @@
 }
 .quality__img{
   margin-top: 52px;
+  border-radius: 10px;
   position: absolute;
-  bottom: 40px;
+  bottom: 60px;
   right: 85px;
 }

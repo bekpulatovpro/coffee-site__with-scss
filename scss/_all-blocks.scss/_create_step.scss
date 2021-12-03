@@ -3,8 +3,7 @@
   background: #333d4b;
   border-radius: 10px;
 }
-.step::before {
-  
+.create__step::before {
   position: absolute;
   content: "";
   width: 763px;
@@ -13,7 +12,7 @@
   background-color: #fdd6ba;
   transform: translateY(13.5px);
 }
-.step {
+.create__step {
   position: relative;
   display: flex;
   list-style-type: none;
@@ -50,13 +49,13 @@
   color: #fdd6ba;
 }
 .create__heading__text {
-  font-family: 'Fraunces';
+  font-family: "Fraunces";
   width: 255px;
   margin-bottom: 42px;
   font-weight: 900;
   font-size: 32px;
   line-height: 36px;
-  color: #FEFCF7;
+  color: #fefcf7;
 }
 .create__text {
   padding-bottom: 100px;
